@@ -1,0 +1,23 @@
+  <div class="row">
+    <div class="col">
+      <div ngbDropdown class="d-inline-block">
+        <button type="button" class="btn" id="dropdownForm1" ngbDropdownToggle>
+          <img class="icon" src="/assets/img/icon.png">
+        </button>
+        <div ngbDropdownMenu aria-labelledby="dropdownForm1">
+          <form #userForm="ngForm" (ngSubmit)="OnSubmit()" > 
+            <label for="email">Email:</label>
+            <input type="email" id="email" [(ngModel)]="userModel.email">
+        
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" [(ngModel)]="userModel.senha">
+        
+            <button type="submit" class="enviar">Entrar</button>
+          </form>
+          <div class="dropdown-divider"></div>
+          <a routerLink="/loginpage"><button type="button" ngbDropdownItem>Criar Conta</button></a>
+          <button type="button" ngbDropdownItem>Esqueci minha senha</button>
+        </div>
+      </div>
+    </div>
+  </div>

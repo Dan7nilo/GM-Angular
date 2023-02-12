@@ -1,0 +1,71 @@
+.row{
+    background:none;
+}
+.col{
+    background:none;
+    flex-direction: column
+}
+.btn{
+    color: transparent;
+}
+.btn:hover{
+    color: #00C2FF;
+}
+button{
+    color: rgb(0, 0, 0);
+}
+.enviar{
+    text-align: center;
+    background-color: rgb(190, 193, 194);
+    margin-top: 20px;
+    border-radius: 8px;
+    height: 35px;
+    width: 185px;
+    transition: 0.2s;
+}
+.enviar:hover{
+background-color: #00C2FF;
+transform: scale(1.1);
+}
+    .button:hover{
+        color: #00C2FF;
+    }
+.icon{
+    width: 85px;
+    background: none;
+}
+form{
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    
+}
+label{
+    color:black;
+    background: white;
+}
+input{
+    background: rgb(180, 180, 180);
+    color: aliceblue;
+    border-radius: 5px;
+}
+.py-3 {
+    background-color: aquamarine;
+}
+.d-inline-block{
+    background: none;
+}
+.form-check-input{
+    background: none;
+}.dropdown-divider{
+    background: none;
+
+}.mb-3{
+    background: none;
+}
+.dropdownForm1{
+    background-color: rgb(93, 168, 233);
+}
+.dropdown-toggle btn{
+    border-radius: 52px;
+background: none;
+}
