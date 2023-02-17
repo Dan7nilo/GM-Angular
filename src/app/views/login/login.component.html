@@ -6,11 +6,12 @@
         </button>
         <div ngbDropdownMenu aria-labelledby="dropdownForm1">
           <form #userForm="ngForm" (ngSubmit)="OnSubmit()" > 
+            <h1>Entrar</h1>
             <label for="email">Email:</label>
-            <input type="email" id="email" [(ngModel)]="userModel.email">
+            <input type="email" id="email" [(ngModel)]="userModel.email" placeholder="usuario@email.com">
         
             <label for="senha">Senha:</label>
-            <input type="password" id="senha" [(ngModel)]="userModel.senha">
+            <input type="password" id="senha" [(ngModel)]="userModel.senha" placeholder="sua senha">
         
             <button type="submit" class="enviar">Entrar</button>
           </form>

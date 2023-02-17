@@ -1,9 +1,18 @@
+h1{
+    background: none;
+    color: black;
+    -webkit-text-stroke: 2px #00C2FF;
+    font-family: 'Asap', sans-serif;
+    text-align: center;
+}
 .row{
     background:none;
+     ;
 }
 .col{
     background:none;
     flex-direction: column
+    
 }
 .btn{
     color: transparent;
@@ -35,9 +44,8 @@ transform: scale(1.1);
     background: none;
 }
 form{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(252, 251, 251);
     padding: 30px;
-    
 }
 label{
     color:black;
@@ -68,4 +76,11 @@ input{
 .dropdown-toggle btn{
     border-radius: 52px;
 background: none;
+}
+::placeholder{
+    color: aliceblue;
+    text-align: center;
+}
+button{
+    text-decoration: none;
 }

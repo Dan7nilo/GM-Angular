@@ -15,7 +15,6 @@ import { CarouselModule } from 'ngx-owl-carousel-o';
 import { ComprasComponent } from './views/compras/compras.component';
 import { LoginpageComponent } from './views/loginpage/loginpage.component';
 
-
 @NgModule({
   declarations: [
     AppComponent,
@@ -34,7 +33,8 @@ import { LoginpageComponent } from './views/loginpage/loginpage.component';
     FormsModule,
     NgbModule,
     BrowserAnimationsModule,
-    CarouselModule
+    CarouselModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

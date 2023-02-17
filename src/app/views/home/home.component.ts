@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Noticias } from 'src/app/model/noticias';
+import { NoticiasService } from 'src/app/service/noticias.service';
 
 @Component({
   selector: 'app-home',
@@ -6,14 +8,19 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
+
+constructor(private noticiaService: NoticiasService) { }
+
+listaNoticias = [] as Noticias[]
+
   ngOnInit(): void {
-    throw new Error('Method not implemented.');
+    this.carregarNoticias()
   }
-
-  public texto!:string;
-
-  OnInit() {
-    this.texto! = "O Melhor da Tecnologia <br> Você Envontra Aqui!"
+  carregarNoticias(){
+    this.noticiaService.getNoticias().subscribe( (notciasRecebidas: Noticias[])=>{
+      this;this.listaNoticias = notciasRecebidas
+    console.log(this.listaNoticias);
+    })
   }
 
 

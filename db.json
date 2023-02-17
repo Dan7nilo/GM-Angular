@@ -1,9 +1,35 @@
 {
-    "posts": [
-      { "id": 1, "title": "json-server", "author": "typicode" }
-    ],
-    "comments": [
-      { "id": 1, "body": "some comment", "postId": 1 }
-    ],
-    "profile": { "name": "typicode" }
-  }
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "noticias": [
+    {
+      "imagem": "assets/img/cel2.webp",
+      "titulo": "Celular top muito caro super promoção",
+      "descricao": "Mais Alguma coisa",
+      "id": 1
+    },
+    {
+      "imagem": "assets/img/cel3.webp",
+      "titulo": "Celular top muito caro super promoção",
+      "descricao": "Mais Alguma coisa",
+      "id": 2
+    },
+    {
+      "imagem": "assets/img/cel5.webp",
+      "titulo": "Celular top muito caro super promoção",
+      "descricao": "Mais Alguma coisa",
+      "id": 3
+    },
+    {
+      "imagem": "assets/img/cel4.jpg",
+      "titulo": "Celular top muito caro super promoção",
+      "descricao": "Mais Alguma coisa",
+      "id": 4
+    }
+  ]
+}
