@@ -15,6 +15,7 @@
         
             <button type="submit" class="enviar">Entrar</button>
           </form>
+          <p id="mensagem" *ngIf="mensagem != ''">{{ mensagem }}</p>
           <div class="dropdown-divider"></div>
           <a routerLink="/loginpage"><button type="button" ngbDropdownItem>Criar Conta</button></a>
           <button type="button" ngbDropdownItem>Esqueci minha senha</button>

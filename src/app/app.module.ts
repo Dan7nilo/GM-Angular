@@ -24,8 +24,7 @@ import { LoginpageComponent } from './views/loginpage/loginpage.component';
     LoginComponent,
     BannerComponent,
     ComprasComponent,
-    LoginpageComponent,
-  
+    LoginpageComponent
   ],
   imports: [
     BrowserModule,

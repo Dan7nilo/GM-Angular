@@ -6,6 +6,20 @@
       "author": "typicode"
     }
   ],
+  "users": [
+    {
+      "email": "fulano@email.com",
+      "password": "1234",
+      "nome": "fulano",
+      "id": "1"
+    },
+    {
+      "email": "ciclano@email.com",
+      "password": "$2a$10$ZWKNwGpmJH8HZL3PKLviGOWVh95T4TmANOvBJI3HV9S9wA72bGec2",
+      "nome": "ciclano",
+      "id": "mEvAnYL"
+    }
+  ],
   "noticias": [
     {
       "imagem": "assets/img/cel2.webp",
