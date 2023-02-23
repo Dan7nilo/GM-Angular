@@ -24,12 +24,27 @@ usuarioLogado = ""
 OnSubmit(){
  console.log(this.userModel)
 
+ let erroEncontrado = 0;
+
+ const listaPalavras: string[] = ["select", "from", "drop", "having", "or","group", "insert", "exec", "\"" , "\'", "--", "#", "*", ";"]
+
+listaPalavras.forEach(palavra => {
+  console.log("palavra atual: ", palavra)
+
+  if(this.userModel.email?.toLowerCase().includes(palavra)){
+  console.log("palavra encontrada: ",palavra)
+  this.mensagem = "Dados Inválidos: "+ palavra;
+  erroEncontrado = 1}
+})
+
+if(erroEncontrado == 0){
+
  this.loginService.login(this.userModel).subscribe((response)=>{
- //console.log("Sucesso!") 
+ console.log("Sucesso!") 
  this.router.navigateByUrl("")
  },(respostaErro)=>{
  this.mensagem = respostaErro.console.error
  }
  )
 }
-}
+}}

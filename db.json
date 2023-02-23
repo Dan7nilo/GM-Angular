@@ -17,6 +17,8 @@
       "email": "ciclano@email.com",
       "password": "$2a$10$ZWKNwGpmJH8HZL3PKLviGOWVh95T4TmANOvBJI3HV9S9wA72bGec2",
       "nome": "ciclano",
+      "endereco": "rua jamelao",
+      "idade": "22", 
       "id": "mEvAnYL"
     }
   ],

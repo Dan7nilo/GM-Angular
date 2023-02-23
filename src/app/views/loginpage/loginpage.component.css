@@ -8,7 +8,7 @@
     
     body{
        
-        height: 1100px;
+        height: 800px;
         width: 100%;
         background-image:linear-gradient(1deg,#4c2380,#1E1C21);  
     }
@@ -32,6 +32,7 @@
        margin: 60px;
     }
     
+    
 .criarconta{
     padding: 30px 80px;
     position: relative;
@@ -40,7 +41,7 @@
     
     align-items: center;
     background-image: linear-gradient(85deg,#190be4,#1E1C21);
-    height: 850px;
+    height: 570px;
     flex-direction: column;
     border-radius: 10px;
     border-style: outset;
@@ -99,6 +100,7 @@ input{
     width: 300px;
     border-radius: 16px;
     background-color: #cccccc;
+    font-size: 16px;
 }
 ::placeholder{
     font-size: 16px;

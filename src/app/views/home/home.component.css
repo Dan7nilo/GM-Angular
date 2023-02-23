@@ -133,3 +133,19 @@ body{
             flex-direction: column;
         }
     }
+    @media screen and (max-width 800px) {
+        h1{
+            margin: 10px 30px;
+            color: #000000;
+            text-decoration: none;
+            -webkit-text-stroke: 1px #00C2FF;
+            font-family: 'Asap', sans-serif;
+            font-size: 12px;
+            font-weight: 600;
+            transition: 0.2s;
+            cursor: pointer;
+            transition: 0.2s;
+            background: none;
+            }
+        
+    }
