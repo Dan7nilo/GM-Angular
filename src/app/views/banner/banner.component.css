@@ -43,3 +43,19 @@ owl-carousel-o{
     background: none;
     width: 30px;
 }
+@media screen and (max-width: 1295px) {
+    h1{
+        font-size: 52px;
+    }
+    
+}
+@media screen and (max-width: 1110px) {
+    h1{
+        font-size: 42px;
+    }
+}
+@media screen and (max-width: 927px) {
+    h1{
+        font-size: 32px;
+    }
+}

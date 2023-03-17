@@ -15,14 +15,14 @@ export class LoginComponent implements OnInit {
   ngOnInit(): void{
 
   }
-userModel = new User();
+loginModel = new User();
 
 mensagem = ""
 
 usuarioLogado = ""
 
 OnSubmit(){
- console.log(this.userModel)
+ console.log(this.loginModel)
 
  let erroEncontrado = 0;
 
@@ -31,7 +31,7 @@ OnSubmit(){
 listaPalavras.forEach(palavra => {
   console.log("palavra atual: ", palavra)
 
-  if(this.userModel.email?.toLowerCase().includes(palavra)){
+  if(this.loginModel.email?.toLowerCase().includes(palavra)){
   console.log("palavra encontrada: ",palavra)
   this.mensagem = "Dados Inválidos: "+ palavra;
   erroEncontrado = 1}
@@ -39,7 +39,7 @@ listaPalavras.forEach(palavra => {
 
 if(erroEncontrado == 0){
 
- this.loginService.login(this.userModel).subscribe((response)=>{
+ this.loginService.login(this.loginModel).subscribe((response)=>{
  console.log("Sucesso!") 
  this.router.navigateByUrl("")
  },(respostaErro)=>{

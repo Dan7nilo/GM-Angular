@@ -11,15 +11,15 @@
     </div>
     <div class="half-box">
         <label for="email">Email</label>
-    <input type="email" id="email" [(ngModel)]="userModel.email" placeholder="Seu melhor email" data-min-length="5">
+    <input type="email" id="email" [(ngModel)]="loginModel.email" placeholder="Seu melhor email" data-min-length="5">
     </div>
     <div class="half-box">
         <label for="senha">Senha</label>
-    <input type="password" id="senha" name="senha" [(ngModel)]="userModel.senha"  placeholder="Digite sua Senha">
+    <input type="password" id="senha" name="senha" [(ngModel)]="loginModel.senha"  placeholder="Digite sua Senha">
     </div>
     <div class="half-box">
         <label for="idade">Data de Nascimento</label>
-    <input type="date" id="idade" [(ngModel)]="userModel.idade" placeholder="Sua Idade">
+    <input type="date" id="idade" [(ngModel)]="loginModel.idade" placeholder="Sua Idade">
     </div>
     <input type="submit" class="enviar" id="btn">
 <p class="error-validation template"></p></div>

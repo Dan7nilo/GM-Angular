@@ -14,6 +14,7 @@ import { BannerComponent } from './views/banner/banner.component'
 import { CarouselModule } from 'ngx-owl-carousel-o';
 import { ComprasComponent } from './views/compras/compras.component';
 import { LoginpageComponent } from './views/loginpage/loginpage.component';
+import { HamburguerComponent } from './hamburguer/hamburguer.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { LoginpageComponent } from './views/loginpage/loginpage.component';
     LoginComponent,
     BannerComponent,
     ComprasComponent,
-    LoginpageComponent
+    LoginpageComponent,
+    HamburguerComponent
   ],
   imports: [
     BrowserModule,

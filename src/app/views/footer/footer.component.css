@@ -40,7 +40,7 @@ p{
     background:none
 }
 .certificados{
-    margin: 30px;
+  
     padding-inline: 10px;
     background:none
 }
@@ -52,9 +52,9 @@ p{
 .social{
     color:#FFFFFF;
     font-size:14px;
-    margin: 20px;
+    
     background:none;
-    padding-inline: 60px;
+    padding-inline: 0px;
 }
 .soc{
     width: 100px;
@@ -65,3 +65,62 @@ p{
     padding-top: 10px;
     background:none
 }
+@media screen and (max-width:1290px) {
+p{
+    font-size: 12px;
+}
+}
+@media screen and (max-width:1238px) {
+    p{
+        font-size: 8px;
+    }
+    .rodape{
+        height: 155px;
+    }
+    .pag{width: 275px;}
+    .socialinfo{
+        height: 60px;
+        line-height: 15px;
+    }
+    .info{
+        width:120px;
+        height: 100px;
+        padding:20px;
+        line-height: 15px;
+    }
+    }
+    @media screen and (max-width:1098px) {
+        p{
+            font-size: 8px;
+        }
+        .seg{
+            width:130px;
+            height: 70px;
+            margin-right: px;
+        }
+        .pag{
+            width: 280px;
+        }
+        .cer{
+            width:70px
+        }
+        .rodape{height: 145px;}
+        }
+        @media screen and (max-width:782px) {
+            .info{
+                width: 30px;
+            }
+            p{
+                font-size:6px;
+                line-height: 10px;
+            }
+            .seg{width:90px; 
+                height:50px;
+            margin: 0px;}
+                .pag{width: 200px}
+            .soc{width:80px}
+            .cer{width: 60px}
+            .rodape{
+                height: 125px;
+            }
+            }

@@ -15,16 +15,16 @@ export class LoginpageComponent implements OnInit {
   ngOnInit(): void{
 
   }
-userModel = new User();
+loginModel = new User();
 
 mensagem = ""
 
 usuarioLogado = ""
 
 OnSubmit(){
- console.log(this.userModel)
+ console.log(this.loginModel)
 
- this.loginService.login(this.userModel).subscribe((response)=>{
+ this.loginService.login(this.loginModel).subscribe((response)=>{
  console.log(response) 
  })
 }

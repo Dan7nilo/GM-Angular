@@ -1,0 +1,80 @@
+.menu{margin: 30px;
+    width: 50px;
+    flex-direction: column;
+    background: none;
+}
+nav{
+    flex-direction: column;
+}
+.dropdown-menu.show{
+    display: flex;
+    position: absolute;
+    right: 100px;
+    justify-content: space-between;
+    border-style:groove;
+    border-color: #00C2FF;
+    flex-direction: column;
+    background-image:linear-gradient(155deg,#4c2380,#1E1C21);
+    height: 380px;
+    width: 300px;
+}
+form{
+    flex-direction: column;
+    background:none;
+    text-decoration: none;
+}
+a{
+background: none;
+display: flex;
+text-decoration: none;
+color: #000000;
+-webkit-text-stroke: 1px #00C2FF;
+font-family: 'Asap', sans-serif;
+font-size: 24px;
+text-shadow: 5px 5px 5px rgb(0, 0, 0);
+font-weight: 600;
+transition: 0.2s;
+background: none;
+line-height: 60px;
+border-bottom-style: dotted;
+border-color: #00C2FF;
+}
+a:hover{
+    transform: scale(1.1);
+    -webkit-text-stroke-width: 2px;
+}
+br{background: none;}
+.ng-untouched ng-pristine ng-valid{
+    flex-direction: column;
+    background: none;
+}
+.d-inline-block.dropdown{
+    background: none;
+}
+#dropdownForm1{
+    margin-right:50px ;
+    height:120px;
+    width: 120px;
+}
+@media screen and (max-width: 726px){
+    .menu{
+        margin:20px;
+        width: 45px
+    }
+    .row{
+        height: 5px;
+        background: none;
+    }
+    .col{
+        height: 5px;
+        background: none;
+    }
+.d-inline-block.dropdown{
+    background: none;
+}
+#dropdownForm1{
+    margin-right:50px ;
+    height: 80px;
+    width: 80px;
+}
+}
