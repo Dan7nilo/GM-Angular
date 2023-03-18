@@ -1,4 +1,16 @@
-.menu{margin: 30px;
+.col{
+background: none;
+width: auto;
+}
+.row{
+    display: flex;
+    position: relative;
+    right: 0%;
+    margin-right: 0.5px;
+    width: 120px;
+    background: none;
+}
+.menu{padding-left: 0px;
     width: 50px;
     flex-direction: column;
     background: none;
@@ -16,7 +28,8 @@ nav{
     flex-direction: column;
     background-image:linear-gradient(155deg,#4c2380,#1E1C21);
     height: 380px;
-    width: 300px;
+    width: 200px;
+    padding: 30px;
 }
 form{
     flex-direction: column;
@@ -24,13 +37,14 @@ form{
     text-decoration: none;
 }
 a{
+    width: 140px;
 background: none;
 display: flex;
 text-decoration: none;
 color: #000000;
 -webkit-text-stroke: 1px #00C2FF;
 font-family: 'Asap', sans-serif;
-font-size: 24px;
+font-size: 22px;
 text-shadow: 5px 5px 5px rgb(0, 0, 0);
 font-weight: 600;
 transition: 0.2s;
@@ -50,13 +64,15 @@ br{background: none;}
 }
 .d-inline-block.dropdown{
     background: none;
+    width: 80px;
 }
 #dropdownForm1{
-    margin-right:50px ;
+    
     height:120px;
-    width: 120px;
+    width: 80px;
 }
 @media screen and (max-width: 726px){
+    a{font-size: 18px;}
     .menu{
         margin:20px;
         width: 45px
@@ -71,10 +87,24 @@ br{background: none;}
     }
 .d-inline-block.dropdown{
     background: none;
+    padding: px;
 }
 #dropdownForm1{
     margin-right:50px ;
     height: 80px;
-    width: 80px;
+    width: 60px;
+}
+.dropdown-menu.show{
+    display: flex;
+    position: absolute;
+    right: 100px;
+    justify-content: space-between;
+    border-style:groove;
+    border-color: #00C2FF;
+    flex-direction: column;
+    background-image:linear-gradient(155deg,#4c2380,#1E1C21);
+    height: 350px;
+    width: 200px;
+    padding: 1px;
 }
 }

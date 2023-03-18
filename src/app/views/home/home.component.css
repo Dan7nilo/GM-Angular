@@ -151,3 +151,19 @@ body{
             }
         
     }
+    @media screen and (max-width: 570px) {
+        .conteudo{
+            font-size: 18px;
+            height:60px;
+            line-height: 20px;
+        
+        }
+        h1{ font-size: 16px}
+        .destaque{min-height: 400px;}
+        .pc{height:90px}
+        .card-1{width:100px;height: 330px;} 
+        .valor{height: 120px;}
+        .card-title{font-size: 10px;}  
+        .card-text1{font-size: 10px;line-height: 10px;} 
+        .card-text2{font-size: 10px;line-height:8px;}    
+    }
